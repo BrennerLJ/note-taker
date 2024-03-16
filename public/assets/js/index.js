@@ -37,7 +37,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch('/api/notes', {
+  fetch('notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
